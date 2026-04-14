@@ -1,0 +1,52 @@
+# Secrets & credentials
+.env
+.env.local
+.env.*.local
+instances/default/secrets/
+instances/default/.env
+
+# Instance config (contains connection strings with credentials)
+instances/default/config.json
+
+# Database
+instances/default/db/
+
+# Backups (SQL dumps — large & sensitive)
+instances/default/data/backups/
+
+# Logs
+instances/default/logs/
+instances/default/data/run-logs/
+*.log
+tmp/
+
+# Storage (uploaded assets)
+instances/default/data/storage/
+
+# Runtime state
+instances/default/runtime-services/
+instances/default/telemetry/
+
+# Test artifacts
+**/test-results/
+.pytest_cache/
+
+# Python
+**/__pycache__/
+**/*.pyc
+
+# Node.js
+node_modules/
+dist/
+
+# Claude Code config
+.claude/
+
+# General
+data/
+*.dump
+*.backup
+*.bak
+.DS_Store
+.vscode/
+.idea/

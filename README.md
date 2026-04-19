@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/status-In%20Production-red?style=flat-square)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square)
-![License](https://img.shields.io/badge/license-Private-brightgreen?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
 
 An autonomous three-agent sales pipeline that detects, analyzes, and outreaches to qualified B2B prospects. Built for freelance automation services targeting SMEs across France.
 

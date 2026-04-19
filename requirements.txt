@@ -1,0 +1,4 @@
+# HTTP client — used by all enrichment & API scripts (Google Places, SIRENE,
+# Anthropic API, Resend, Gmail, Paperclip). Pinned to major version for
+# stability; Dependabot handles minor/patch bumps.
+requests>=2.31.0,<3.0.0
